@@ -1,0 +1,15 @@
+<div class="cake-container" style="text-align: center; position: relative;">
+    <img src="cake-image.jpg" alt="Birthday Cake" class="cake-image" style="width: 300px;">
+    <div class="candles" style="position: absolute; top: 0; left: 40%; display: none;">
+        <img src="candle-image.jpg" alt="Candle" style="width: 50px;">
+    </div>
+</div>
+
+<script>
+    // Show animation when candle is clicked
+    document.querySelector('.cake-image').addEventListener('click', function() {
+        document.querySelector('.candles').style.display = 'block';
+        // Additional animation for balloons and flowers
+        alert("Surprise Celebration!");
+    });
+</script>
